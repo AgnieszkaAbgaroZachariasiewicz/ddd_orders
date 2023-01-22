@@ -75,6 +75,7 @@ GEM
     bindex (0.8.1)
     bootsnap (1.15.0)
       msgpack (~> 1.2)
+    bounded_context (0.18.2)
     builder (3.2.4)
     capybara (3.38.0)
       addressable
@@ -237,6 +238,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  bounded_context (~> 0.18.1)
   capybara
   debug
   importmap-rails

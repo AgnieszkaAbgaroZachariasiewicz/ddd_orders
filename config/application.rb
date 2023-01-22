@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module DddOrders
   class Application < Rails::Application
+    config.paths.add 'ordering/lib', eager_load: true
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 

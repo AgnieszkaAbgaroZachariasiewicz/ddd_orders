@@ -71,3 +71,5 @@ group :test do
   gem "webdrivers"
 end
 gem "rails_event_store", "~> 2.8.1"
+
+gem 'bounded_context', '~> 0.18.1'
